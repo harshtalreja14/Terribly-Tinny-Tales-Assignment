@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6deb1536.css",
+    "main.js": "/static/js/main.c1c1c5d4.js",
+    "static/media/backgorund image.jpg": "/static/media/backgorund image.1a21bceea9ca18810b96.jpg",
+    "static/media/TTT logo_page-0001.jpg": "/static/media/TTT logo_page-0001.90823624c2f33f77dcc6.jpg",
+    "index.html": "/index.html",
+    "main.6deb1536.css.map": "/static/css/main.6deb1536.css.map",
+    "main.c1c1c5d4.js.map": "/static/js/main.c1c1c5d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6deb1536.css",
+    "static/js/main.c1c1c5d4.js"
+  ]
+}

@@ -1,0 +1,45 @@
+[
+    {
+        "Image" : "https://media.licdn.com/dms/image/D4D03AQEXdD5HHqzN3g/profile-displayphoto-shrink_400_400/0/1667373388482?e=1705536000&v=beta&t=-2HnbTEGp5ORczULT2PwThEqgzYprhWRXt8isdq0NHA",
+        "Name" : "Anuj Gosalia",
+        "Followers" : "6482",
+        "Following" : "245",
+        "Title" : "Co-founder & Ceo at Terribly Tiny Tales",
+        "Socials" : "https://www.instagram.com/anujgosalia",
+        "Bookmark" : "125",
+        "Like" : "12",
+        "Seen" : "57.8K",
+        "Heart" : "26.0K",
+        "PostNumber" : "134",
+        "Posts" :
+        [
+            {
+                "Title" : "A Changing World",
+                "Content" : "A wolrd is changing at a feveish pace.Friends,collegues, and everyone engaged in Knowledge work are begnning to sense this, including",
+                "Author" : "Anuj Gosalia",
+                "Date" : "August 2",
+                "TimeToRead" : "2 Mins",
+                "Views" : "102",
+                "Type" : "musing"
+            },
+            {
+                "Title" : "India v/s Australia",
+                "Content" : "Think about it this cricket series was akin to therapy.Laying our childhood trauma up to top working with it slowly and surely over two Lorem, ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, obcaecati!",
+                "Author" : "Anuj Gosalia",
+                "Date" : "January 21",
+                "TimeToRead" : "2 Mins",
+                "Views" : "156",
+                "Type" : "thought"
+            },
+            {
+                "Title" : "Write to build",
+                "Content" : "Writing is the first step to create : -Stories -products -companies",
+                "Author" : "Anuj Gosalia",
+                "Date" : "November 18",
+                "TimeToRead" : "1 Mins",
+                "Views" : "228",
+                "Type" : "thought"
+            }
+    ]
+    }
+]

@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+body {
+    overflow-x: hidden;
+    font-family: 'Ubuntu', sans-serif;
+    box-sizing: border-box;
+}
+
+.blue {
+    background-color: rgb(53, 204, 255);
+    border-radius: 100%;
+}
+
+.yellow {
+    background-color: yellow;
+    border-radius: 100%;
+}
+
+.grey {
+    background-color: grey;
+    border-radius: 100%;
+}
+
+.red {
+    background-color: rgb(250, 51, 51);
+    border-radius: 100%;
+}
+
+.name {
+    padding-bottom: 5px;
+}
+
+.bridgeImage {
+    width: 100%;
+}
+
+#bridge{
+    max-width: 100%;
+}
+
+.infoSection {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    padding: 10px 5%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.infos {
+    padding: 10px 0;
+    width: fit-content; 
+    line-height: 1.5;
+    padding-right: 15%;
+}
+
+.name {
+    font-weight: 700;
+    font-size: x-large;
+    padding-bottom: 2%;
+    text-align: start;
+}
+
+.infoSection .profileImage img {
+    position: relative;
+    width: fit-content; 
+    max-width: 195px;
+    border-radius: 100%;
+    z-index: 999;
+    top: -60px;
+}
+
+div .followInfo {
+    gap: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-items: center;
+    flex-wrap: wrap; 
+}
+
+div .FollowNumber {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 0 5px 0;
+}
+
+div .tags {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    padding-top: 10px;
+}
+
+.followInfo .first {
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+.postNumber {
+    padding: 15px 10px 0 10px;
+    min-width: 150px;
+    max-width: 150px;
+    text-align: center;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    font-weight: 600;
+    color: rgb(23, 196, 253);
+}
+
+.line {
+    position: relative;
+    left: 0;
+}
+
+.posts {
+    padding: 30px 10px;
+}
+
+.title {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+.details {
+    padding-bottom: 20px;
+}
+
+.TiThumbsUp {
+    border-radius: 30px;
+    background-color: yellow;
+    height: 20px;
+    width: 20px;
+}
+
+.content {
+    padding-bottom: 10px;
+    font-weight: 200;
+}
+.postline{
+    position: relative;
+    width: 100vw;
+    left:-20px;
+    overflow-x: hidden;
+}
+.details p {
+    padding-bottom: 10px;
+}
+.line{
+    border-top: 1px solid #000;
+    width: 80%;
+    position: relative;
+    left: 150px;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .line {
+        border-top: 1px solid #000;
+        width: 80%;
+        position: relative;
+        left: 150px;
+      }
+}
+@media (max-width:768px) {
+    .profileImage img{
+        height: 90%;
+        width: 100%;
+    }
+    div .followInfo {
+        gap: 30%;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-items: center;
+        flex-wrap: wrap;
+    }
+    .line {
+        border-top: 1px solid #000;
+        width: 78%;
+        position: relative;
+        left: 150px;
+      }
+    div .FollowNumber {
+        margin-top: 10px; 
+    }
+}
+@media (min-width:425px) and (max-width : 675px){
+    .infoSection,
+    .followInfo,
+    .icons{
+        flex-direction: row;
+        align-items: baseline;
+        padding: 0 5px;
+        justify-content: center;
+    }
+    .name{
+        text-align: center;
+    }
+    .line {
+        border-top: 1px solid #000;
+        width: 73%;
+        position: relative;
+        left: 150px;
+      }
+    .title{
+        justify-content: space-between;
+    }
+    div .followInfo{
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .infos{
+        width: 100%;
+        text-align: center;
+        padding: 0%;
+    }
+}
+@media (max-width: 480px) {
+    .infoSection,
+    .followInfo,
+    .icons{
+        flex-direction: row;
+        align-items: baseline;
+        padding: 0 5px;
+        justify-content: center;
+    }
+    .name{
+        text-align: center;
+    }
+    .title{
+        justify-content: space-between;
+    }
+    .line {
+        border-top: 1px solid #000;
+        width: 55%;
+        position: relative;
+        left: 150px;
+      }
+    div .followInfo{
+        gap: 5%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .infos{
+        width: 100%;
+        text-align: center;
+        padding: 0%;
+    }
+}
+
+
+.mainSection {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .infoSection .profileImage{
+    width: fit-content;
+  }
+ 
+@media (min-width: 425px) and (max-width:675px)
+{
+    .line {
+        border-top: 1px solid #000;
+        width: 64%;
+        position: relative;
+        left: 150px;
+      }
+}
+@media (max-width: 320px) and (max-width : 375px)
+{
+    .line {
+        border-top: 1px solid #000;
+        width: 53%;
+        position: relative;
+        left: 150px;
+      }
+}
