@@ -68,4 +68,4 @@ Data Structure
 Profiles and posts data are stored in a structured format within Data.json.
 
 Nitlify link
-https://terribly-tiny-tales-harsh-talreja-asg.netlify.app/
+https://harshtalreja-terribly-tiny-tales-asgm.netlify.app/
